@@ -1,4 +1,5 @@
 //! C-compatible Foreign Function Interface for mobile SDKs (Android/iOS).
+#![allow(clippy::not_unsafe_ptr_arg_deref)]
 
 use std::ffi::{CStr, CString};
 use std::os::raw::c_char;
