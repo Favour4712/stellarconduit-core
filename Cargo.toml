@@ -40,6 +40,9 @@ chrono = "0.4"
 btleplug = "0.11"
 uuid = { version = "1.8", features = ["v4"] }
 
+# mDNS for WiFi-Direct discovery
+mdns-sd = "0.11"
+
 [dev-dependencies]
 env_logger = "0.11"
 tokio-test = "0.4"
